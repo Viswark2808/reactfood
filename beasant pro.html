@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+        }
+        .si {
+            margin-top: 250px;
+            margin-left: 100px;
+        }
+        .si img {
+            max-width: 100px; 
+            height: 100px; 
+            margin-bottom: 10px; 
+        }
+        input {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 250px;
+            height: 30px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid gray;
+            padding: 5px;
+        }
+        button {
+            width: 250px;
+            height: 30px;
+            background-color: black;
+            color: white;
+        }
+        h2 {
+            position: absolute;
+            font-size: 40px;
+            margin-left: 240px;
+        }
+        .image{
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h2>Besant</h2>
+        </div>
+        <div class="image">
+            <img src="page1.jpeg">
+        </div>
+        <div class="si">
+            <form action="">
+                <h1>Sign Up</h1>
+                <p>Already have an account?<a href="" style="color: rgb(115, 255, 1);">Sign In</a></p>
+                <input type="text" placeholder="Your Name" required><br>
+                <input type="text" placeholder="User Name" required><br>
+                <input type="text" placeholder="Email Address" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">I agree with <strong>Privacy Policy</strong> and <strong>Terms Of Use</strong></label><br>
+                <button>Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function home() {
+            window.location.href = "Besant Pto3.html";
+        }
+    </script>
+</body>
+</html>
